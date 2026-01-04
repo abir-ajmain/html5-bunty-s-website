@@ -1,0 +1,51 @@
+#main-header{
+    text-align: center;
+    background-color: #998775;
+    /* background-image: url('../assests/images/mesh-qS01TQYhcQ0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 20px 20px;
+    word-spacing: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: #ffffff;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #4F4F53;
+}
+figure img[alt="Bunty"], figure img[alt="Bunty's parents"]{
+    width: 600px;
+    height: 400px;
+}
+footer{
+    text-align: center;
+}
+section ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px 10px;
+    padding: 8px 30px 8px;
+    
+    
+}
+section ul li a{
+    text-decoration: none;
+    
+}
+.social:hover{
+    color: #0781a0;
+    background-color: #c7c4c4;
+    text-decoration: underline;
+}
