@@ -18,3 +18,14 @@
     width: 150px;
     border: 2px solid slategray;
 }
+.user-container{
+    display: flex;
+}
+.user{
+    border: 2px solid purple;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    font-size: 1.8em;
+    text-align: center;
+}
