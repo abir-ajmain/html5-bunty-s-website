@@ -1,14 +1,10 @@
 *{
     box-sizing: border-box;
 }
-#main-header{
+/* #main-header{
     text-align: center;
     background-color: #998775;
-    /* background-image: url('../assests/images/mesh-qS01TQYhcQ0-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; */
+    
 }
 nav ul li{
     list-style: none;
@@ -27,7 +23,7 @@ nav ul li a:hover{
 nav ul li a{
     text-decoration: none;
     color: #4F4F53;
-}
+} */
 figure img[alt="Bunty"], figure img[alt="Bunty's parents"]{
     width: 600px;
     height: 400px;
@@ -54,7 +50,7 @@ section ul li a{
     text-decoration: underline;
 }
 
-/*This style is using to get the images in the center;*/
+/*This style is using to bring the images in the center;*/
 #img1, #img2{
     max-width: 600px;
     margin: 0 auto;
