@@ -3,3 +3,6 @@ form .personal-info label{
     margin: 13px 0px 0px;
 
 }
+form .personal-info .gender{
+    display: inline;
+}
