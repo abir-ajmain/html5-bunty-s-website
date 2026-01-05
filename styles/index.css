@@ -31,6 +31,7 @@ nav ul li a{
 figure img[alt="Bunty"], figure img[alt="Bunty's parents"]{
     width: 600px;
     height: 400px;
+    
 }
 footer{
     text-align: center;
@@ -51,4 +52,10 @@ section ul li a{
     color: #0781a0;
     background-color: #c7c4c4;
     text-decoration: underline;
+}
+
+/*This style is using to get the images in the center;*/
+#img1, #img2{
+    max-width: 600px;
+    margin: 0 auto;
 }
