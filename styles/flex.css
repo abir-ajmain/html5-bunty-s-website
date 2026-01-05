@@ -10,6 +10,7 @@
 }
 .box-container{
     display: flex;
+    gap: 50px;
 }
 .box{
     font-size: 4em;
