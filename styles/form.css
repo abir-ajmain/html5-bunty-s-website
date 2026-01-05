@@ -6,3 +6,8 @@ form .personal-info label{
 form .personal-info .gender{
     display: inline;
 }
+#opinion{
+    display: block;
+    font-size: larger;
+    font-weight: 700;
+}
