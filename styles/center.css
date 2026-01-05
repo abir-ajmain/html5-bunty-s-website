@@ -1,0 +1,15 @@
+.parent-box{
+    background-color: burlywood;
+    height: 1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    background-color: aqua;
+    width: 200px;
+    /* height: 200px; */
+    font-size: 3em;
+
+}
