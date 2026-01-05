@@ -20,6 +20,7 @@
 }
 .user-container{
     display: flex;
+    justify-content: space-around;
 }
 .user{
     border: 2px solid purple;
@@ -28,4 +29,9 @@
     background-color: aqua;
     font-size: 1.8em;
     text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
