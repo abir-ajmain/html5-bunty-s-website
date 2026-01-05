@@ -1,0 +1,10 @@
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid purple;
+    padding: 8px 15px 8px;
+}
+td{
+    text-align: center;
+}
