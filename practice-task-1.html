@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice_01</title>
+    <style>
+        #form-parent form fieldset{
+            display: block;
+        }
+        form fieldset div img{
+            width:400px;
+
+        }
+        #feedback-section label{
+            display: block;
+        }
+        #feedback-title{
+            font-size: 1.25em;
+        }
+        #feedback-section{
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <section id="form-parent">
+            <form>
+                <fieldset>
+                    <label for="search">Search your Image here:</label>
+                    <input type="search">
+                    <input type="submit" value="Search">
+                    <div>
+                        <img src="./assests/images/panda.jpg" alt="">
+                    </div>
+                    <a href="https://www.wallpaperflare.com/search?wallpaper=Kung+Fu+Panda">For more click here</a>
+                </fieldset>
+
+                <section id="feedback-section">
+                    <span id="feedback-title">Feedback Form:</span>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                    <label for="comment">Comment:</label>
+                    <textarea cols="60" rows="5" name="comment" id="comment"></textarea>
+                </section>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
