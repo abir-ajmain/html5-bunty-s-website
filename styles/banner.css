@@ -1,0 +1,12 @@
+body{
+    max-width: 1270px;
+    background-color: bisque;
+}
+#hero-container{
+    background-color: lightskyblue;
+    display: flex;
+}
+#hero-container div img{
+    width: 100%;
+    height: 500px;
+}
