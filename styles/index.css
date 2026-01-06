@@ -1,29 +1,7 @@
 *{
     box-sizing: border-box;
 }
-/* #main-header{
-    text-align: center;
-    background-color: #998775;
-    
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 20px 20px 20px;
-    word-spacing: 10px;
 
-    font-size: 20px;
-    font-weight: 600;
-}
-nav ul li a:hover{
-    color: black;
-    background-color: #ffffff;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #4F4F53;
-} */
 figure img[alt="Bunty"], figure img[alt="Bunty's parents"]{
     width: 600px;
     height: 400px;
