@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Task 2!</title>
+    <style>
+        #feedback-form form fieldset label{
+            display: block;
+            margin: 0 0 5px;
+        }
+    </style>
 </head>
 <body>
     <main>
-        
+        <section id="feedback-form">
+            <form>
+                <fieldset>
+                    <legend>Feedback Form</legend>
+                    <label for="text">Tell your story below:</label>
+                    <textarea rows="8" cols="50" name="text" id="text">Your story.....</textarea>
+                    <label for="rate">You can rate stories</label>
+                    <select name="rate" id="rate">
+                        <option value="null">Select one</option>
+                        <option value="awful">Awful</option>
+                        <option value="poor">Poor</option>
+                        <option value="bad">Bad</option>
+                        <option value="good">Good</option>
+                        <option value="very-good">Very Good</option>
+                        <option value="excellent">Excellent</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
     </main>
 </body>
 </html>
