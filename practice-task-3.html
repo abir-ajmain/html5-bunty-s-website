@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Task 3</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+        #main-head{
+            text-align: center;
+        }
+        #tables{
+            display:flex;
+            gap: 80px;
+        }
+        table{
+            
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2 id="main-head">Badminton Tournament 2026</h2>
+        <section id="tables">
+            <div id="t1">
+                <table>
+                <caption>Tournament schedule & results</caption>
+                <thead>
+                    <tr>
+                        <th>Round 1</th>
+                        <th>Player A</th>
+                        <th>Player B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Match 1</td>
+                        <td>Mark</td>
+                        <td>Alice</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Winner</td>
+                        <td>Mark</td>
+                    </tr>
+                    <tr>
+                        <td>Match 2</td>
+                        <td>John</td>
+                        <td>Sarah</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Winner</td>
+                        <td>Sarah</td>
+                    </tr>
+                    <tr>
+                        <td>Match 3</td>
+                        <td>Sarah</td>
+                        <td>Mark</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Round 1 Winner</td>
+                        <td>Mark</td>
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+            <div id="t2">
+                <table>
+                    <caption>Tournament schedule & results</caption>
+                    <thead>
+                        <tr>
+                            <th>Round 2</th>
+                            <th>Player C</th>
+                            <th>Player D</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Match 3</td>
+                            <td>Mark</td>
+                            <td>Jack</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Winner</td>
+                            <td>Mark</td>
+                        </tr>
+                        <tr>
+                            <td>Match 4</td>
+                            <td>Sarah</td>
+                            <td>David</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Winner</td>
+                            <td>David</td>
+                        </tr>
+                        <tr>
+                            <td>Match 5</td>
+                            <td>David</td>
+                            <td>Mark</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Round 2 Winner</td>
+                            <td>David</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div id="t3">
+                <table>
+                    <caption>Tournament schedule & results</caption>
+                    <thead>
+                        <tr>
+                            <th>Final</th>
+                            <th>Winner of Round 1</th>
+                            <th>Winner of Round 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Champion</td>
+                            <td>Mark</td>
+                            <td>David</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
