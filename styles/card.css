@@ -23,7 +23,7 @@ body{
     box-shadow: 10px 10px 15px .2px rgb(122, 119, 119);
 }
 #card:hover{
-    background-color: rgba(23, 221, 211, 0.61);
+    background-color: rgba(152, 192, 190, 0.89);
 }
 #card img{
     width: 100%;
